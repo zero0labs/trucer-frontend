@@ -4,6 +4,9 @@ import Metatags from "@/components/Metatags";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Toaster } from "react-hot-toast";
+import { useRoute } from 'vue-router'
+
+
 
 import {
   EthereumClient,
@@ -43,12 +46,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
         <Toaster />
         <Footer />
-      </WagmiConfig>
-      <Web3Modal
-        themeColor="blackWhite"
-        projectId="2e603b4827e59dd1a715066175aee2e8"
-        ethereumClient={ethereumClient}
-      />
+      </WagmiConfig>  
     </main>
   );
 }
