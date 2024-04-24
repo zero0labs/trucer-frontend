@@ -83,7 +83,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">NAME</h1>
             <input
-              className="form-input bg-black text-center text-white"
+              className="form-input bg-black text-center text-white border-[#F7F24D]"
               required
               placeholder="ENTER THE FULL NAME"
               type="text"
@@ -94,7 +94,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">SCHOOL</h1>
             <input
-              className="form-input bg-black text-center text-white"
+              className="form-input bg-black text-center text-white border-[#F7F24D]"
               required
               placeholder="ENTER THE SCHOOL"
               type="text"
@@ -105,7 +105,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">DATE</h1>
             <input
-              className="form-input  bg-black text-center text-white"
+              className="form-input  bg-black text-center text-white border-[#F7F24D]"
               required
               placeholder="ENTER THE DATE"
               type="date"
@@ -116,7 +116,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">DEPARTMENT</h1>
             <input
-              className="form-input bg-black text-center text-white"
+              className="form-input bg-black text-center text-white border-[#F7F24D]"
               required
               placeholder="ENTER THE DEPARTMENT"
               type="text"
@@ -128,7 +128,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">ID</h1>
             <input
-              className="form-input bg-black text-center text-white"
+              className="form-input bg-black text-center text-white border-[#F7F24D]"
               required
               placeholder="ENTER THE STUDENT ID"
               type="text"

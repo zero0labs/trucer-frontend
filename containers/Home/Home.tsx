@@ -1,11 +1,11 @@
 import React from "react";
 
-import UCertificate from "../../components/UCertificate";
+import Generate from "../../components/Generate";
 
 function Home() {
   return (
     <div className="flex  items-center justify-center">
-      <UCertificate />
+      <Generate />
     </div>
   );
 }

@@ -19,16 +19,14 @@ export default function Page({ }) {
         border: '30px yellow',
         outline: 'none',
         fontSize: '20px',
-        padding: '10px',
-        color: 'black'
-    
+        padding: '10px'    
     }
     const buttonStyle = {
         border: 'none',
         outline: 'none',
         fontSize: '20px',
         padding: '10px',
-        backgroundColor: 'black',
+        backgroundColor: 'white',
         color: 'black',
         cursor: 'pointer',
         marginTop: "10px"

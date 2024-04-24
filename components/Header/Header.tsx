@@ -32,14 +32,14 @@ function Header() {
         />
         </Link>
       <div className="w-64 flex justify-between items-center">
-      <Link className="w-24 h-10 items-center justify-center flex text-white hover:text-yellow-300" href="/">
+      <Link className="w-24 h-10 items-center justify-center flex text-white hover:text-[#F7F24D]" href="/">
         GENERATE
       </Link>
-      <Link className="w-24 h-10 items-center justify-center flex text-white hover:text-yellow-300"  href="/verify">
+      <Link className="w-24 h-10 items-center justify-center flex text-white hover:text-[#F7F24D]"  href="/verify">
         VERIFY
       </Link>
       </div>
-      <button className="justify-center px-8 py-2 mt- mr-10 text-lg font-light tracking-wide text-yellow-300 rounded-3xl border border-yellow-300 border-solid max-md:px-5 hover:text-white hover:bg-yellow-300 hover:border-white">
+      <button className="justify-center px-8 py-2 mt- mr-10 text-lg font-light tracking-wide text-[#F7F24D] rounded-3xl border border-[#F7F24D] border-solid max-md:px-5 hover:text-black hover:bg-[#F7F24D] hover:border-black">
           Connect Wallet
         </button>
         <div className="absolute mt-24 left-0 w-full border-t border-gray-500"></div>
