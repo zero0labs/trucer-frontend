@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Metatags from "@/components/Metatags";
 import "@/styles/globals.css";
@@ -39,14 +38,15 @@ const wagmiClient = createClient({
 const ethereumClient = new EthereumClient(wagmiClient, chains);
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main>
+    <main >
+      <div className=" max-h-full">
       <WagmiConfig client={wagmiClient}>
         <Header />
         <Metatags />
         <Component {...pageProps} />
         <Toaster />
-        <Footer />
       </WagmiConfig>  
+      </div>
     </main>
   );
 }

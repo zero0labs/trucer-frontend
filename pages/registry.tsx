@@ -5,14 +5,14 @@ import { ZeroForgery } from "@/typechain-types"
 export default function Page({ }) {
     const divStyle = {
         fontSize: '40px',
-        fontWeight: 'bold',
+        fontWeight: 'bold'
     }
     const mainStyle = {
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column' as 'column',
         justifyContent: 'center',
-        height: '100vh',
+        height: '100vh'
     }
     const inputStyle = {
       
@@ -20,6 +20,7 @@ export default function Page({ }) {
         outline: 'none',
         fontSize: '20px',
         padding: '10px',
+        color: 'black'
     
     }
     const buttonStyle = {
@@ -27,7 +28,7 @@ export default function Page({ }) {
         outline: 'none',
         fontSize: '20px',
         padding: '10px',
-        backgroundColor: 'white',
+        backgroundColor: 'black',
         color: 'black',
         cursor: 'pointer',
         marginTop: "10px"

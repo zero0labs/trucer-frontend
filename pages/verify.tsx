@@ -43,7 +43,7 @@ function Verify() {
         toast.error("Certificate is not valid or not found!");
       }
     } else {
-      toast.error("Please install metamask");
+      toast.error("Please install Web3 Wallet");
     }
   };
   return (
@@ -52,10 +52,10 @@ function Verify() {
         "flex items-center justify-center",
         josefinSans.className
       )}>
-      <div className="w-[23rem]">
+      <div className="w-[26rem] mt-20">
         {/** GET TCKN, GET NAME, GET SCHOOL NAME, GET DATE, GET DEPARTMENT, REGISTRAR (WILL BE SIGNATURE) */}
         <form
-          className="w-full border-2 border-[#f7c655] px-12 py-6 flex flex-col space-y-4 rounded-3xl"
+          className="w-full px-12 py-6 flex flex-col space-y-4"
           onSubmit={handleSubmit}
           onChange={(e) => {
             const { name, value } = e.target as any;
@@ -83,7 +83,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">NAME</h1>
             <input
-              className="form-input"
+              className="form-input bg-black text-center text-white"
               required
               placeholder="ENTER THE FULL NAME"
               type="text"
@@ -94,7 +94,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">SCHOOL</h1>
             <input
-              className="form-input"
+              className="form-input bg-black text-center text-white"
               required
               placeholder="ENTER THE SCHOOL"
               type="text"
@@ -105,7 +105,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">DATE</h1>
             <input
-              className="form-input"
+              className="form-input  bg-black text-center text-white"
               required
               placeholder="ENTER THE DATE"
               type="date"
@@ -116,7 +116,7 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">DEPARTMENT</h1>
             <input
-              className="form-input"
+              className="form-input bg-black text-center text-white"
               required
               placeholder="ENTER THE DEPARTMENT"
               type="text"
@@ -128,9 +128,9 @@ function Verify() {
           <div>
             <h1 className="form-header text-center">ID</h1>
             <input
-              className="form-input"
+              className="form-input bg-black text-center text-white"
               required
-              placeholder="ENTER THE ID"
+              placeholder="ENTER THE STUDENT ID"
               type="text"
               name="ID"
               id="ID"
@@ -138,7 +138,7 @@ function Verify() {
           </div>
           <button
             type="submit"
-            className="text-xl font-bold hover:bg-gray-200 transition ease-in-out duration-300  !mt-8 bg-[#f7c655] border-[#f7c655] rounded-full text-black border w-48  mx-auto">
+            className="text-l font-bold hover:bg-black hover:text-gray-200 transition ease-in-out duration-300  !mt-10 bg-[#f7c655] border-[#f7c655] rounded-full text-gray-800 border w-48 h- mx-auto">
             VERIFY
           </button>
         </form>
